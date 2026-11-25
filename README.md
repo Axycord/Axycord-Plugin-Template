@@ -96,6 +96,16 @@ the key safe and reuse it for updates: Axycord's approval is tied to its SHA-256
 signing-certificate fingerprint. Debug builds use the local Android debug key;
 different machines can produce different debug signing identities.
 
+## Submit your plugin to Browse Plugins
+
+Third-party developers can publish plugins in their own repositories and submit
+them to the [Axycord Plugins catalog](https://github.com/Axycord/Axycord-Plugins).
+Follow its [submission guide](https://github.com/Axycord/Axycord-Plugins/blob/main/CONTRIBUTING.md)
+for signed release metadata, real author credits, license notices and review.
+Use your own unique plugin/package IDs while keeping the Axycord SDK discovery
+action and metadata keys intact. Accepted listings are published through the
+catalog workflow after merge.
+
 ## Source provenance
 
 Adapted from [microcord/plugin-template](https://github.com/microcord/plugin-template)
