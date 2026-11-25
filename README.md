@@ -16,6 +16,12 @@ storage. It also includes a local-cache View Raw message page.
 5. Set your plugin name in `src/main/res/values/strings.xml` and replace the examples
    with your feature. Increase `versionCode` for each installable update.
 
+For command-line SDK installation, use the platform package's full name:
+
+```bash
+sdkmanager "platforms;android-37.0" "build-tools;36.0.0"
+```
+
 Build and check Android API compatibility:
 
 ```bash
